@@ -1,0 +1,6 @@
+framework module NoxmobiMediationStartAppAdapter {
+  umbrella header "NoxmobiMediationStartAppAdapter.h"
+
+  export *
+  module * { export * }
+}
