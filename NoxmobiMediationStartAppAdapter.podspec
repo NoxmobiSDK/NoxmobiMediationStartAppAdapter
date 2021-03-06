@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "NoxmobiMediationStartAppAdapter"
-  spec.version      = "4.5.0.0" # Mark
+  spec.version      = "4.6.1.0" # Mark
   spec.summary      = "Noxmobi ad mediation adapter for StartApp."
   spec.homepage     = "https://github.com/NoxmobiSDK/NoxmobiMediationStartAppAdapter"
   spec.license      = "MIT"
@@ -15,6 +15,6 @@ Pod::Spec.new do |spec|
   spec.ios.vendored_frameworks = 'NoxmobiMediationStartAppAdapter.framework'
   spec.requires_arc = true
 
-  spec.dependency "StartAppSDK", "4.5.0"
+  spec.dependency "StartAppSDK", "4.6.1"
 
 end
